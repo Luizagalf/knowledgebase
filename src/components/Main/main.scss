@@ -1,0 +1,16 @@
+@import "src/assets/styles/main.scss";
+
+.main {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+
+  & > img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid $yellow;
+  }
+}

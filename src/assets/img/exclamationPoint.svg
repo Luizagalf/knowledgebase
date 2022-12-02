@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+	<title>exclamationPoint-svg-svg</title>
+	<defs>
+		<image  width="84" height="185" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAC5AgMAAADL3/AOAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA8d9vVRqLlX1giQAAAAN0Uk5TAP//RFDWIQAAAWpJREFUeJzt1r2NwzAMBWDHQBr3WsJTeAQX0j4ZxWWgKe+sX5J6gkLnAlwRlh+ER8axLE1TKnfWJCqgsxzvUd1O8eZybURNUZrharWpPNkQLRE3R2sDATXCMM0RjheKzcF3oTuIzcFOVl9ls9hONovtsMoR4hBYGwxDQG0HO0fTaDvuObBGDVD7MQX4+yC+GtUA/Nx/odH33zONvr8vsGr2pkpNg/3vg0Y13yis+NunUc2XtqNGoFUrPhk0ik8cjeKTTKWGob2g+OTFis9ujfKfMb2u9QpiFIrvJVjpwNslxXejjtaB7VDrwPtQ8V0Oax2NYhnCvqDwPlnasWalHccULO6pKUIExMVyaVzcLP1WrtUfLS7etzz7s9DSdnFA/0QBMmJJyiNWqAlFcFYWPBd9gGY9pe3WgT6H6v9Q/T/Qq79C88yqHkSXgT6I4n8evyWdN2qFmtsdTGfUrLMDOrsF76wwhVwakmvqD77NpHBjdU7BAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="img1" href="#img1" x="58" y="10"/>
+</svg>

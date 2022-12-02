@@ -1,0 +1,13 @@
+{
+  "1Html": {
+    "id": "1Html",
+    "rus": {
+      "title": "Что такое метатеги в HTML?",
+      "text": "<div>Часть программного HTML-кода, заключенная между тегом <head>... </head> (заголовок страницы).Эти атрибуты не являются обязательными: они не видны пользователю, но сообщают определенную информацию поисковой системе</div>"
+    },
+    "en": {
+      "title": "What are meta tags in HTML?",
+      "text": "<ul><li>Meta tags are the tags inside the Head tag of the HTML page</li><li>They are not needed for the interface</li><li>They are not required, but important for the browser</li><li>Meta Tags are always in name or value pairs </li><li>Meta tags consist of character encoding, title, or even description. </li></ul>"
+    }
+  }
+}

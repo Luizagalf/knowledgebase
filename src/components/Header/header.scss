@@ -1,0 +1,51 @@
+@import "src/assets/styles/main.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid $darkGray;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    & > div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: $violet;
+
+      & > p {
+        cursor: pointer;
+        @include subtitle;
+        transition: all 0.4s ease;
+
+        &:hover {
+          transition: all 0.4s ease;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  &_item {
+    @include subtitle;
+    @include link;
+    color: $darkBlue;
+  }
+
+  &_logo {
+    display: flex;
+    align-items: center;
+    color: $violet;
+
+    & > img {
+      width: 30px;
+      margin-top: -5px;
+    }
+  }
+}

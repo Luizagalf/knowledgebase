@@ -1,0 +1,79 @@
+{
+  "1Js": {
+    "id": "1Js",
+    "rus": {
+      "title": "Что такое балансировка нагрузки?",
+      "text": "<div>Балансировка нагрузки — это распределение всего входящего сетевого трафика по внутренним серверам. Самый популярный и простой алгоритм балансировки нагрузки — Round Robin.<br/>В веб-приложениях есть</div><ul><li>Круговая система</li><li>Сходство сеанса или липкая сессия</li><li>Привязка IP-адреса</li></ul>"
+    },
+    "en": {
+      "title": "What is load balancing?",
+      "text": "<div>Load balancing is distribution of all the incoming network traffic all across the backend servers.The most popular and simple load balancing algorithm is Round Robin.<br/>In web applications are</div><ul><li>Round robin</li><li>Session affinity or sticky session</li><li>IP Address affinity</li></ul>"
+    }
+  },
+  "2Js": {
+    "id": "2Js",
+    "rus": {
+      "title": "Что означает npm?",
+      "text": "<div>Npm расшифровывается как Node Package Manag</div>"
+    },
+    "en": {
+      "title": "What npm stands for?",
+      "text": "<div>Npm stands for Node Package Manager. We need it to install packages, management of versions and dependencies of Node.js packages.</div>"
+    }
+  },
+  "3Js": {
+    "id": "3Js",
+    "rus": {
+      "title": "Что такое область видимости в JavaScript?",
+      "text": "<div>В JavaScript у каждой функции есть своя область видимости. Это набор переменных, правил доступа к переменным.<br/>Только код внутри этой функции может получить доступ к переменным области действия этой функции.<br/>Более того, имя переменной должно быть уникальным в пределах одной области видимости. Одна область может находиться внутри другой области. В этом случае код внутри самой внутренней области может получить доступ к переменным из любой области.<br/>Глобальная область — это область, которая содержит и видна во всех других областях.<br/>Область блока — это область, которая ограничивает доступ к переменным внутри этой области. Но только const и let переменные. Переменные Var также доступны в области видимости функции. Область блока может отображаться с помощью if/switch/for/while или другим способом с фигурными скобками.</div>"
+    },
+    "en": {
+      "title": "What is scope in JavaScript?",
+      "text": "<div>In JavaScript every function has own scope. It is a collection of variables, rules for how variables are accessed.<br/>Only code inside this function can access to this function's scoped variables.<br/>Moreover a variable name has to be unique within the same scope. One scope can be inside another scope. In this case code inside the innermost scope can access to variables from either scope.<br/>Global Scope is the scope which contains and is visible in all other scopes.<br/>Block scope is the scope which restricts access to variables inside this scope. But only const and let variables. Var variables are also accessed in function scope. Block scope can appereance with if/switch/for/while or other way with braces.</div>"
+    }
+  },
+  "4Js": {
+    "id": "4Js",
+    "rus": {
+      "title": "В чем разница между let, const и var?",
+      "text": "<div>До ES6 у нас была только переменная var для определения переменных.В ES6 мы получили const и let.<br/>Основное отличие:<ul><li>Переменные, определенные с помощью const, не могут быть переназначены</li><li>Переменные const и let имеют блочную область видимости</li><li>Переменные Var ограничены функцией</li></ul></div>"
+    },
+    "en": {
+      "title": "What is the difference between let, const, and var?",
+      "text": "<div>Before ES6, we had only var for defining variables. In ES6 we got const and let.<br/>The main differences:<ul><li>Variables defined with const we can't reassign</li><li>Const and let variables are block-scoped</li><li>Var variables are function scoped</li></ul></div>"
+    }
+  },
+  "5Js": {
+    "id": "5Js",
+    "rus": {
+      "title": "В чем разница между == и ===?",
+      "text": "<div>Двойное равенство проверяет только значение. Перед проверкой он выполняет необходимое преобразование типов. Если мы сравним строку «1» и целое число 1, используя двойное равенство, мы получим истину, но если мы используем тройное равенство, мы получим ложь.<br/>Многие современные проекты предпочитают всегда использовать тройное равенство.</div>"
+    },
+    "en": {
+      "title": "What is the difference between == and ===?",
+      "text": "<div>Double equal checks for value only. Before checking, it does any necessary type conversion. If we compaire the string '1' and the integer 1 using double equal we get true, but if we using triple equal we get false.<br/>Many projects in our days prefer to always use triple equality. We can avoid a lot of mistakes</div>"
+    }
+  },
+  "6Js": {
+    "id": "6Js",
+    "rus": {
+      "title": "Как вы можете получить доступ к элементам HTML с помощью JavaScript?",
+      "text": "<div>getElementById, querySelector, and querySelectorAll<br/>Example:<pre>function changeColor(newColor) {<br/>const elem = document.getElementById('name');<br/>elem.style.color = newColor;<br/>}</pre></div>"
+    },
+    "en": {
+      "title": "How can you access HTML elements with JavaScript?",
+      "text": "<div>getElementById, querySelector, and querySelectorAll<br/>Example:<pre>function changeColor(newColor) {<br/>const elem = document.getElementById('name');<br/>elem.style.color = newColor;<br/>}</pre></div>"
+    }
+  },
+  "7Js": {
+    "id": "7Js",
+    "rus": {
+      "title": "Какие варианты у нас есть для хранения данных?",
+      "text": "<div>Вы можете хранить пользовательские данные в localStorage, файлах cookie HTTP или sessionStorage.<ul><li>Данные в sessionStorage очищаются при завершении сеанса страницы</li><li>Срок действия данных в localStorage не истекает, если мы не очистим это (сессия в режиме инкогнито очищается, когда закрывается последняя «приватная» вкладка)</li><li>Файлы cookie HTTP — это старый способ хранения данных. Это не очень хорошее решение. Поскольку файлы cookie отправляются с каждым запросом, они могут ухудшить производительность</li></ul></div>"
+    },
+    "en": {
+      "title": "What options do we have to store data?",
+      "text": "<div>You can store user data in localStorage, HTTP cookies, or sessionStorage<ul><li>Data in sessionStorage is cleared when the page session ends</li><li>Data in localStorage doesn't expire, if we don't clear that ('incognito' session is cleared when the last 'private' tab is closed)</li><li>HTTP cookies is old way to stor data. It's not good solution. Because cookies are sent with every request, so they can worsen performance</li></ul></div>"
+    }
+  }
+}

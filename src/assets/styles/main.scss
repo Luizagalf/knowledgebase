@@ -1,0 +1,120 @@
+@import "assets/styles/colors.scss";
+@import "assets/styles/mixins.scss";
+@import "assets/styles/screen.scss";
+@import "assets/fonts/stylesheet.scss";
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Qafinte Regular";
+  background-color: $lightGray;
+}
+
+button,
+input,
+textarea,
+div {
+  &:focus,
+  &:active,
+  &:active:focus,
+  &:focus:active,
+  &:visited {
+    outline: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1 {
+  @include title;
+}
+
+h2 {
+  @include subtitle;
+}
+
+h3 {
+  @include textTitle;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 5px;
+
+  &::before {
+    color: $yellow;
+    content: "✸";
+    padding-right: 10px;
+  }
+}
+
+pre {
+  background: #2e3440;
+  color: #d8dee9;
+  display: block;
+  overflow-x: auto;
+  padding: 15px;
+  border-radius: 0.5em;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: $yellow;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: inset 4px -4px 4px rgba(255, 255, 255, 0.5),
+    inset -4px 4px 4px rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-resizer {
+  background-color: transparent;
+}
+
+:-webkit-autofill,
+:-webkit-autofill:hover,
+:-webkit-autofill:focus,
+:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 35px white inset !important;
+  box-shadow: 0 0 0 35px white inset !important;
+}

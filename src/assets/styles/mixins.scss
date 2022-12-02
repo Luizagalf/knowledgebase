@@ -1,0 +1,43 @@
+@import "assets/styles/screen.scss";
+
+@mixin title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@mixin subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin textTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+@mixin caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@mixin link {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.3s;
+
+  &:hover {
+    background-size: 100% 1px;
+  }
+}
