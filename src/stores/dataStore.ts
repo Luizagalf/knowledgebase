@@ -1,8 +1,10 @@
-import { makeAutoObservable } from "mobx";
+import { makeAutoObservable, runInAction } from "mobx";
 import RootStore from "stores/index";
 import { Data } from "types/Data";
 import javaScriptJson from "data/javaScript.json";
 import htmlJson from "data/html.json";
+import cssJson from "data/css.json";
+import reactJson from "data/react.json";
 
 class dataStore {
   rootStore: RootStore;
@@ -17,7 +19,9 @@ class dataStore {
   language: "rus" | "en" = "en";
 
   getData = (name: "javascript" | "html" | "css" | "react") => {
-    this.isLoading = true;
+    runInAction(() => {
+      this.isLoading = true;
+    });
     switch (name) {
       case "javascript":
         this.javascript = javaScriptJson;
@@ -25,11 +29,19 @@ class dataStore {
       case "html":
         this.html = htmlJson;
         break;
+      case "css":
+        this.css = cssJson;
+        break;
+      case "react":
+        this.react = reactJson;
+        break;
       default:
         break;
     }
     setTimeout(() => {
-      this.isLoading = false;
+      runInAction(() => {
+        this.isLoading = false;
+      });
     }, 2000);
   };
 

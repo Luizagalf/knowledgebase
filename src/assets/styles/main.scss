@@ -62,22 +62,8 @@ h4 {
   margin: 0;
 }
 
-ul {
-  padding-left: 15px;
-}
-
-li {
-  list-style-type: none;
-  padding-bottom: 5px;
-
-  &::before {
-    color: $yellow;
-    content: "✸";
-    padding-right: 10px;
-  }
-}
-
-pre {
+pre,
+code {
   background: #2e3440;
   color: #d8dee9;
   display: block;

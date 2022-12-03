@@ -1,0 +1,13 @@
+{
+  "1React": {
+    "id": "1React",
+    "rus": {
+      "title": "Что такое JSX?",
+      "text": "<p>JSX — это синтаксическое расширение JavaScript. Это термин, используемый в React для описания того, как должен выглядеть пользовательский интерфейс.</p><p>Вы можете писать структуры HTML в том же файле, что и код JavaScript, используя JSX.</p><p>Поскольку он позволяет избежать использования сложных структур DOM JS, JSX упрощает понимание и отладку кода.</p>"
+    },
+    "en": {
+      "title": "What Is JSX?",
+      "text": "<ul><li>JSX is a JavaScript syntactic extension. It&#x27;s a term used in React to describe how the user interface should seem.</li><li>You can write HTML structures in the same file as JavaScript code by utilizing JSX.</li><li>Because it avoids the use of complicated JS DOM structures, JSX makes the code easier to comprehend and debug.</li></ul>"
+    }
+  }
+}

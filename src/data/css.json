@@ -1,0 +1,13 @@
+{
+  "1Css": {
+    "id": "1Css",
+    "rus": {
+      "title": "Назовите некоторые основные элементы дизайна",
+      "text": "<ul><li>Линия - линия, проведенная любым пером или кистью.</li><li>Форма - форма представляет собой автономную определенную область геометрической формы (квадраты и круги) или органической формы (формы произвольной формы или естественные формы).</li><li>Направление — все линии имеют направление (горизонтальное, вертикальное или наклонное).</li><li>Размер - это площадь, занимаемая одной фигурой с другой</li><li>Текстура — поверхность формы (гладкая, мягкая, твердая, глянцевая и т. д.)</li><li>Цвет - свет, отраженный от предметов. Три характеристики цвета — оттенок, насыщенность и интенсивность</li></ul>"
+    },
+    "en": {
+      "title": "Name some basic design elements",
+      "text": "<ul><li>Line - a line made with any pen or brush</li><li>Shape – a shape is a self-contained defined area of geometric (squares and circles), or organic (free-formed shapes or natural shapes)</li><li>Direction – all lines have direction (horizontal, vertical, or oblique)</li><li>Size - it is the area occupied by one shape with the other </li><li>Texture - the surface of the shape (smooth, soft, hard, glossy, and such)</li><li>Color - the light reflected from the objects. The three characteristics of color are hue, value, and the intensity</li></ul>"
+    }
+  }
+}

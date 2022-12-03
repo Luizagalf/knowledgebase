@@ -56,7 +56,7 @@ const Header = () => {
             RU
           </p>
         </div>
-        <div className="header__end"> Hier will be search</div>
+        <div className="header__end"> Here will be search</div>
       </div>
     </header>
   );

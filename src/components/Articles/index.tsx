@@ -4,6 +4,7 @@ import { useStores } from "stores";
 import { useEffect } from "react";
 import parse from "html-react-parser";
 import LoadedComponent from "components/LoadedComponent";
+import ArticleAdd from "components/ArticleAdd";
 import { Link } from "react-router-dom";
 
 type ArticlesProps = {
@@ -20,6 +21,7 @@ const Articles = ({ name }: ArticlesProps) => {
   return (
     <LoadedComponent isLoading={dataStore.isLoading} error={dataStore.isError}>
       <>
+        {/* <ArticleAdd name={name} /> */}
         {Object.values(dataStore[name]).length ? (
           <div className="data">
             {Object.values(dataStore[name]).map((item) => {

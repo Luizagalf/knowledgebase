@@ -20,4 +20,12 @@
   & > div {
     @include text;
   }
+
+  & ul {
+    @include customUl;
+  }
+
+  & li {
+    @include customLi;
+  }
 }

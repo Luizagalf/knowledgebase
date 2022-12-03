@@ -62,7 +62,7 @@
     },
     "en": {
       "title": "How can you access HTML elements with JavaScript?",
-      "text": "<div>getElementById, querySelector, and querySelectorAll<br/>Example:<pre>function changeColor(newColor) {<br/>const elem = document.getElementById('name');<br/>elem.style.color = newColor;<br/>}</pre></div>"
+      "text": "<div>getElementById, querySelector, and querySelectorAll<br/>Example:<pre><code>function changeColor(newColor) {<br/>const elem = document.getElementById('name');<br/>elem.style.color = newColor;<br/>}</code></pre></div>"
     }
   },
   "7Js": {
@@ -74,6 +74,28 @@
     "en": {
       "title": "What options do we have to store data?",
       "text": "<div>You can store user data in localStorage, HTTP cookies, or sessionStorage<ul><li>Data in sessionStorage is cleared when the page session ends</li><li>Data in localStorage doesn't expire, if we don't clear that ('incognito' session is cleared when the last 'private' tab is closed)</li><li>HTTP cookies is old way to stor data. It's not good solution. Because cookies are sent with every request, so they can worsen performance</li></ul></div>"
+    }
+  },
+  "8Js": {
+    "id": "8Js",
+    "rus": {
+      "title": "Что такое SQL-инъекция?",
+      "text": "<p>Инъекционные атаки происходят из-за отсутствия строгого разделения между программными инструкциями (то есть кодом) и пользовательским (или внешним) вводом. Это позволяет злоумышленнику внедрить вредоносный код во фрагмент данных.<br/><br/>SQL-инъекция является одним из наиболее распространенных типов атак путем внедрения. Для этого злоумышленник предоставляет вредоносные операторы SQL через приложение.<br/><br/>Как предотвратить: </p><ul><li>Подготовленные операторы с параметризованными запросами</li><li>Хранимые процедуры</li><li>Проверка ввода - проверка черного списка и проверка белого списка</li><li>Принцип наименьших привилегий. Учетные записи приложений не должны назначать доступ администратора или администратора к серверу базы данных. Это гарантирует, что если приложение будет скомпрометировано, злоумышленник не будет иметь прав на базу данных через скомпрометированное приложение.</li></ul>"
+    },
+    "en": {
+      "title": "What is SQL injection?",
+      "text": "<p>Injection attacks from a lack of strict separation between program instructions (code) and user-provided (or external) input. This allows an attacker to inject malicious code into a piece of data.<br/><br/>SQL injection is one of the most common types of injection attacks. To do this, the attacker provides malicious SQL statements through the application.<br/><br/>How to prevent:</p><ul><li>Prepared statements with parameterized queries</li><li>Stored procedures</li><li>Input validation - blacklist validation and whitelist validation</li><li>Principle of least privilege - Application accounts shouldn’t assign DBA or admin-type access to the database server. This ensures that if an application is compromised, an attacker won’t have the rights to the database through the compromised application</li></ul>"
+    }
+  },
+  "9Js": {
+    "id": "9Js",
+    "rus": {
+      "title": "Что такое webpack?",
+      "text": "<p>Webpack — это инструмент сборки, который помещает все ваши активы, включая Javascript, изображения, шрифты и CSS, в граф зависимостей.</p><p>Webpack позволяет вам использовать require() в исходном коде, чтобы указывать на локальные файлы, такие как изображения, и решать, как они обрабатываются в вашем окончательном пакете Javascript, например, заменяя путь URL-адресом, указывающим на CDN.</p><p>Если вы создаете сложное приложение Front End со многими статическими ресурсами, не относящимися к коду, такими как CSS, изображения, шрифты и т. д., тогда да, Webpack даст вам большие преимущества.</p><p>Если ваше приложение довольно маленькое, у вас не так много статических ресурсов и вам нужно создать только один файл Javascript для обслуживания клиента, тогда Webpack может быть более накладным, чем вам нужно.</p>"
+    },
+    "en": {
+      "title": "What is webpack?",
+      "text": "index.tsx:31 <p>Webpack is a build tool that puts all of your assets, including Javascript, images, fonts, and CSS, in a dependency graph.<br/><br/>Webpack lets you use require() in your source code to point to local files, like images, and decide how they are processed in your final Javascript bundle, like replacing the path with a URL pointing to a CDN.<br/><br/>If you&#x27;re building a complex Front End application with many non-code static assets such as CSS, images, fonts, etc, then yes, Webpack will give you great benefits.<br/><br/>If your application is fairly small, you don&#x27;t have many static assets and you only need to build one Javascript file to serve to the client, then Webpack might be more overhead than you need.</p>"
     }
   }
 }
